@@ -1,0 +1,13 @@
+Mvn\DemoMavenProject\CommonStepDefs.class
+Misc\tess4j.class
+Mvn\DemoMavenProject\DemoOneTest.class
+ChartInk\ChartInkDownloadImages.class
+Mvn\DemoMavenProject\PageFactory\WebShopHomePage.class
+Mvn\DemoMavenProject\jdbcdemo.class
+runners\CucumberRunnerTest.class
+Misc\JavaOCR.class
+Mvn\DemoMavenProject\CucumberStepDefinitionTest.class
+Mvn\DemoMavenProject\PageFactory\ChartinkPage.class
+Mvn\DemoMavenProject\PageFactory\StockPageOperations.class
+Mvn\DemoMavenProject\PageFactory\StockPage.class
+Mvn\DemoMavenProject\PageFactory\WebShopBooksPage.class

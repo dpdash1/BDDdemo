@@ -1,0 +1,89 @@
+{
+
+	"list_of_stocks_and_stocks_data":
+	[
+		{
+			"stock_name":"",
+			"bse_stock_code":"",
+			"nse_stock_code":"",
+			"stock_isin":"",
+			"industry_sector":"",
+			
+			"exchange_name":"",
+			"my_exchange_name":"",
+			
+			
+			"stock_url":"rain_industries",
+			"stock_technical_chart_url":"rain_industries_technical_chart",
+			
+						
+			"bse_stock_price_today":"",
+			"bse_price_change":"",
+			"bse_change_percent":"",
+			"bse_volume":"",
+			"nse_stock_price_today":"",
+			"nse_price_change":"",
+			"nse_change_percent":"",
+			"nse_volume":"",
+			
+			"bse_previous_close_price":"",
+			"bse_open_price":"",
+			"nse_previous_close_price":"",
+			"nse_open_price":"",
+						
+			"market_depth_buy_percent":"",
+			"market_depth_sell_percent":"",			
+			
+			"bse_today_low":"",
+			"bse_today_high":"",
+			"bse_52_wk_low":"",
+			"bse_52_wk_high":"",
+			"nse_today_low":"",
+			"nse_today_high":"",
+			"nse_52_wk_low":"",
+			"nse_52_wk_high":"",
+			"bse_lower_price_band":"",
+			"bse_upper_price_band":"",
+			"nse_lower_price_band":"",
+			"nse_upper_price_band":"",		
+			"circuit_filter":"",
+			
+			
+			"standalone_market_cap":"",
+			"standalone_pe_ratio":"",
+			"standalone_eps":"",
+			"standalone_book_value":"",
+			"standalone_price_per_book":"",
+			"consolidated_market_cap":"",
+			"consolidated_pe_ratio":"",
+			"consolidated_eps":"",
+			"consolidated_book_value":"",
+			"consolidated_price_per_book":"",
+			"industry_pe_ratio":"",
+			
+			"3day_deliverables":"",
+			"5day_deliverables":"",
+			"8day_deliverables":"",
+			
+			
+			"bse_30_day_sma":"",
+			"bse_50_day_sma":"",
+			"bse_150_day_sma":"",
+			"bse_200_day_sma":"",
+			"nse_30_day_sma":"",
+			"nse_50_day_sma":"",
+			"nse_150_day_sma":"",
+			"nse_200_day_sma":"",
+			
+			"board_meetings":"",
+			"share_holding_pattern":"",
+			"mutual_fund_holding":""
+			
+			
+		}
+	]
+	
+	
+	
+
+}
