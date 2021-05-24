@@ -37,6 +37,72 @@ Feature: Title of your feature
     Given Delete old images from the downloads folder
 
 
+#BSE 30 CHARTS DOWNLOAD FOR 1 MONTH (DAILY CHART)
+#-------------------------------------------------------------
+    
+  @newchartink @run_all_chartink_operations_1_month_bse30_1
+  Scenario Outline: Title of your scenario
+    Given I open browser
+    Given I navigate to https://chartink.com/stocks/nifty.html
+    Given I am on ChartinkPage Screen
+    #below is the number of months for the chart type which comes from the dropdown menu
+    Given I select one_month from period dropdown
+    Given I click on btn_updateChart button
+    Given I navigate into the ChartImage Frame
+    Given I click on saveImage button
+    Given I wait for 15 seconds
+    Given I come out of the frame to the main page 
+    Given I hit the URLs from the <Chartlist_Type> text file and save the charts in daily_charts folder
+    Given I close browser
+    #Given Delete old images from the images folder
+    #Given Copy all newly downloaded png files into images folder
+    #Given Add all daily chart images into one <Chartlist_Type> pdf file
+    #Given Delete old images from the downloads folder
+    
+    Examples:
+    |Chartlist_Type|
+    |sensex301|
+    
+    
+    
+  @newchartink @run_all_chartink_operations_1_month_bse30_2
+  Scenario Outline: Title of your scenario
+    Given I open browser
+    Given I navigate to https://chartink.com/stocks/nifty.html
+    Given I am on ChartinkPage Screen
+    #below is the number of months for the chart type which comes from the dropdown menu
+    Given I select one_month from period dropdown
+    Given I click on btn_updateChart button
+    Given I navigate into the ChartImage Frame
+    Given I click on saveImage button
+    Given I wait for 15 seconds
+    Given I come out of the frame to the main page 
+    Given I hit the URLs from the <Chartlist_Type> text file and save the charts in daily_charts folder
+    Given I close browser
+    #Given Delete old images from the images folder
+    #Given Copy all newly downloaded png files into images folder
+    #Given Add all daily chart images into one <Chartlist_Type> pdf file
+    #Given Delete old images from the downloads folder
+    
+    Examples:
+    |Chartlist_Type|
+    |sensex302|
+ 
+    
+  @newchartink @run_all_chartink_operations_1_month_bse30_generate_pdf
+  Scenario Outline: Title of your scenario
+    Given Delete old images from the images folder
+    Given Copy all newly downloaded png files into images folder
+    Given Add all daily chart images into one <Chartlist_Type> pdf file
+    Given Delete old images from the downloads folder
+    
+    Examples:
+    |Chartlist_Type|
+    |sensex30|    
+    
+
+
+
 #ALL OPERATIONS FOR SELECTED MONTH OR DAY PERIOD (DAILY CHART)
 #-------------------------------------------------------------
 
